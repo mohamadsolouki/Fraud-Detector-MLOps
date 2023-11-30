@@ -1,8 +1,5 @@
 import unittest
 import pandas as pd
-import sys
-
-sys.path.append('../src/')
 from data_preprocessing import load_data, preprocess_data
 
 
