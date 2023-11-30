@@ -37,6 +37,6 @@ def preprocess_data(data):
 
 if __name__ == "__main__":
     # Example usage
-    file_path = '/data/dataset.csv'
+    file_path = '../data/dataset.csv'
     data = load_data(file_path)
     X_train, X_test, y_train, y_test = preprocess_data(data)
