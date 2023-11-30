@@ -1,5 +1,5 @@
+import itertools
 import joblib
-import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
 import matplotlib.pyplot as plt
 
