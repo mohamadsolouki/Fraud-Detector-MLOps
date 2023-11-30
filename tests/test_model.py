@@ -3,6 +3,7 @@ from sklearn.datasets import make_classification
 from model import train_model, evaluate_model, save_model
 from sklearn.ensemble import RandomForestClassifier
 
+
 class TestModel(unittest.TestCase):
     def setUp(self):
         # Generate a sample dataset for testing
@@ -31,6 +32,7 @@ class TestModel(unittest.TestCase):
             save_model(model, 'test_model.joblib')
         except Exception as e:
             self.fail(f"save_model raised an exception {e}")
+
 
 if __name__ == '__main__':
     unittest.main()

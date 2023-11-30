@@ -2,6 +2,7 @@ import unittest
 import pandas as pd
 from data_preprocessing import load_data, preprocess_data
 
+
 class TestDataPreprocessing(unittest.TestCase):
     def setUp(self):
         # Sample data similar to the actual dataset
@@ -23,6 +24,7 @@ class TestDataPreprocessing(unittest.TestCase):
         X_train, X_test, y_train, y_test = preprocess_data(self.sample_data)
         self.assertEqual(X_train.shape[1], 4)  # Check if 'Time' column is dropped
         self.assertTrue('Amount' in X_train.columns)  # Check if 'Amount' column exists
+
 
 if __name__ == '__main__':
     unittest.main()
