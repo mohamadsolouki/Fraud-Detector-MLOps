@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from data_preprocessing import load_data, preprocess_data
+from src.data_preprocessing import load_data, preprocess_data
 
 
 class TestDataPreprocessing(unittest.TestCase):

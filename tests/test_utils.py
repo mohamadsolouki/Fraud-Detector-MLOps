@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 import os
-from utils import save_dataframe_to_csv, load_dataframe_from_csv, setup_logging, log_message
+from src.utils import save_dataframe_to_csv, load_dataframe_from_csv, setup_logging, log_message
 
 
 class TestUtils(unittest.TestCase):

@@ -1,7 +1,6 @@
 import unittest
 from sklearn.datasets import make_classification
-from model import train_model, evaluate_model, save_model
-
+from src.model import train_model, evaluate_model, save_model
 from sklearn.ensemble import RandomForestClassifier
 
 
